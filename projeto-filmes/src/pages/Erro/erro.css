@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.not-found{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.not-found h1{
+    font-size: 124px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.not-found h2{
+    font-size: 32px;
+    margin-top: 30px;
+}
+.not-found a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: rgb(68, 116, 192);
+    width: 250px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid black;
+}

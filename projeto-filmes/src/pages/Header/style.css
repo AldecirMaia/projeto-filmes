@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header{
+    display: flex;
+    width: 760px;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background: rgb(180, 12, 12);
+    padding: 0 2%;
+    color: aliceblue;
+}
+header a + a{
+    margin-left: 20px;
+}
+.logo{
+    font-size: larger;
+}
+@media screen and (max-width: 768px){
+    header{
+        width: 100%;
+        max-width: 460px;
+    }
+}

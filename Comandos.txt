@@ -1,0 +1,8 @@
+## Cirar uma aplicação em REACT
+    npc create-react-app "nome do projeto sem aspas"
+
+para instalar as rotas no projeto
+    npm install react-router-dom
+
+para instalar axio que consume aplicação
+    npm instal axio
